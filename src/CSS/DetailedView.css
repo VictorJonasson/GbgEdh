@@ -1,0 +1,76 @@
+.wrapper {
+  font-size: small;
+}
+.owner {
+  text-align: start;
+}
+.grid-container {
+  background-color: rgba(4, 11, 16, 0.95);
+  height: 700px;
+  border-radius: 5px;
+  display: inline-grid;
+  grid-template-columns: 0.3fr 1fr 1fr;
+  grid-template-rows: 4fr 4fr 4fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "Avatar . . ."
+    "Stats Stats Stats Stats"
+    ". . . .";
+  padding: 20px;
+}
+.Avatar {
+  grid-area: Avatar;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border-style: solid;
+  border-radius: 500px;
+  border-width: thin;
+  color: rgb(227, 158, 63);
+  background-color: rgba(4, 11, 16, 1);
+}
+.Stats {
+  grid-area: Stats;
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 1fr;
+  grid-gap: 10px;
+  color: rgb(227, 158, 63);
+}
+.box {
+  border-style: solid;
+  border-radius: 5px;
+  border-width: thin;
+  padding: 40px;
+  font-size: 1.8em;
+}
+.Owner {
+  color: brown;
+  font-size: 1.8em;
+  justify-self: center;
+  margin-top: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.Commander {
+  color: brown;
+  font-size: 1.5em;
+  justify-self: center;
+  margin-top: auto;
+  padding: 20px;
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+.description {
+  color: bisque;
+  margin: -20px;
+}
+.stats {
+  color: brown;
+  font-size: 1.8rem;
+}

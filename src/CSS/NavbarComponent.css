@@ -1,0 +1,40 @@
+.Navbar {
+  background-color: rgb(210, 105, 46);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  height: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  cursor: pointer;
+}
+.homeicon {
+  position: absolute;
+  bottom: 0;
+  width: 65px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.statsicon {
+  position: absolute;
+  bottom: 0;
+  width: 65px;
+  margin-left: 30%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.homeicon:hover {
+  opacity: 0.5;
+  padding: 1px;
+}
+.statsicon:hover {
+  opacity: 0.5;
+  padding: 1px;
+}
